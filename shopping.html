@@ -3,28 +3,44 @@
 <head>
 <meta charset='utf-8'>
 <style>
-    span, b{text-align: left;
-                   vertical-align: top;}
-                 
+    * {padding: 0;margin: 0;}
+    ul{list-style-type: none;}
+
+    #main-title {margin: 10px; padding-bottom: 10px;}
+
+    .image {float: left;}
+    .weather {float:left; padding: 0 0 0 200px; width: 50px;}
+    .price{float: left; padding: 0 0 0 150px; width: 150px;}
+    .mprice{font-size: 12px; margin-top: 7px;}
+    .red {color: red;}
+
 </style>
 </head>
 <body>
     <h3>판매 목록</h3>
     <hr>
 
-    <div> <img src="spring.jpg" width="180"> <span><b>봄 품절</b></span>
+    <div claa="image">
+    <a href="프로필만들기_20210325박명현.html">
+    <img src="spring.jpg" width="180" height="190"></a>
+</div>
+     <div class="weather"> <h4>봄</h4>
+    </div> 
+     <ul class="price"> <li class="red">품절</li> <li class="mprice">배송비 ₩2,500</li>
+
+</ul> 
+
+    
+
+    <div> <img src="summer.jpg" width="180"> <span><p>여름 60000원</p></span> 
 
     <hr>
 
-    <div> <img src="summer.jpg" width="180"> <span><b>여름 60000원</b></span> 
+    <div> <img src="fall.jpg" width="180"> <span><p>가을 90000원</p></span>
 
     <hr>
 
-    <div> <img src="fall.jpg" width="180"> <span><b>가을 90000원</b></span>
-
-    <hr>
-
-    <div> <img src="winter.jpg" width="180">  <span><b>겨울 120000원</b></span>
+    <div> <img src="winter.jpg" width="180">  <span><p>겨울 120000원</p></span>
 
 </div>
     
