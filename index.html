@@ -3,7 +3,30 @@
     <head>
         <meta charset="utf-8>">
         <style>
-           
+            body {text-align: center;}
+        * {padding: 0px; margin: 0px;}
+        header, nav, section, aside, footer {
+          border: solid 2px black;}
+        header {
+          width:  1200px; height: 100px;
+          margin-top: 10px; margin-left: 10px;}
+        nav {
+          width:  1200px; height: 70px;
+          margin-top: 10px; margin-left: 10px;}
+        section {
+          width:  900px; height: 455px;
+          margin-top: 10px; margin-left: 10px;
+          float: left;}
+        aside {
+          width:  280px; height: 455px;
+          margin-left: 20px; margin-top: 10px;
+          float: left;}
+        footer {
+          width:  1200px; height: 100px;
+          margin-top: 10px; margin-left: 10px;}
+        
+        
+        .clear {clear: both;}
         
             table, tr, th, td {
                 border: solid 1px black;
@@ -34,7 +57,8 @@
     h1 {text-align: center; margin: 30px 0 30px 0;}
 
     .nav {float: left; list-style-type: none; margin-left: 10px;}
-    .pic {list-style: none;}
+    .hoseopic {list-style: none;}
+    .artpic {list-style: none;}
         
     #address {float: left; margin: 10px 0 40px 20px; }
     #customer {float: right; margin: 70px 10px 0 180px;}  
@@ -42,80 +66,94 @@
 </head>
 <body>
 
-<h3>시간표</h3>
-<table>
-    <tr>
-        <th>교시</th> <th>월요일</th><th>화요일</th> <th>수요일</th> <th>목요일</th> <th>금요일</th> <th>토요일</th> <th>일요일</th> 
-    </tr>
+    <div id="mh">
+        <div id="mh">
+            <header>
+                <div id="logo">
+                    From. myunghyun
+                </div>
+                <div id="top">  
+                </div>
+            </header>
 
-    <tr>
-        <td><h3>1교시</h3></td> <td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td>
-    </tr>
+            <nav>
+                <h3><a href="form_test.html"> 회원가입 </a>
+                    <a href="rubato.html"> 루바토 펜션 안내</a>
+                    <a href="hoseo.html"> 호서 행사 안내</a>
+                    <a href="hoseonight.html"> 호서 야간 개장 안내</a>
+                    <a href="salepaper.html"> 세일 안내장</a>
+                    <a href="may.html"> 월간 일정표</a>
+                    <a href="shopping.html"> 쇼핑몰 판매 목록</a>
+                </h3>
+            </nav>
+            <section>
+                <table>
+                    <tr>
+                        <th>교시</th> <th>월요일</th><th>화요일</th> <th>수요일</th> <th>목요일</th> <th>금요일</th> <th>토요일</th> <th>일요일</th> 
+                    </tr>
+                
+                    <tr>
+                        <td><h3>1교시</h3></td> <td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td>
+                    </tr>
+                
+                    <tr>
+                        <td><h3>2교시</h3></td> <td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td> <td class="blufive"><h4>디지털콘텐츠비즈니스창업</h4></td> <td>&nbsp;</td> <td class="blusix">
+                            <h4>마케팅의 이해</h4></td>
+                    </tr>
+                
+                    <tr>
+                        <td><h3>3교시</h3></td> <td>&nbsp;</td> <td>&nbsp;</td> <td class="blutwo"><h4>대학영어회화2</h4></td> <td class="blusix"><h4>마케팅의 이해</h4></td> <td>&nbsp;</td> <td class="bluone">
+                            <h4> 웹 프로그래밍</h4></td>
+                    </tr>
+                
+                    <tr>
+                        <td><h3>4교시</h3></td> <td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td> <td class="blusix"><h4>마케팅의 이해</h4></td> <td>&nbsp;</td> <td>&nbsp;</td>
+                    </tr>
+                
+                    <tr>
+                        <td><h3>5교시</h3></td> <td>&nbsp;</td> <td>&nbsp;</td> <td class="bluone"> <h4> 웹 프로그래밍</h4></td> <td class="bluthree"><h4>예술과 AI</h4></td> <td class="blufive">
+                            <h4>디지털콘텐츠비즈니스창업</h4></td>  <td>&nbsp;</td>
+                    </tr>
+                
+                    <tr>
+                        <td><h3>6교시</h3></td> <td>&nbsp;</td> <td class="bluone"> <h4>웹 프로그래밍</h4></td> <td class="bluthree"><h4>예술과 AI</h4></td> <td class="blufive"><h4>디지털콘텐츠비즈니스창업</h4></td> <td class="bluseven">
+                            <h4>AI시대의 인간과 사회(팀티칭)</h4></td> <td>&nbsp;</td>
+                    </tr>
+                
+                    <tr>
+                        <td><h3>7교시</h3></td> <td>&nbsp;</td> <td>&nbsp;</td> <td class="blufour"> <h4>리더십(벤처)</h4></td> <td>&nbsp;</td> <td class="bluseven"><h4>AI시대의 인간과 사회(팀티칭)</h4></td> <td>&nbsp;</td>
+                    </tr>
+                
+                    <tr>
+                        <td><h3>8교시</h3></td> <td>&nbsp;</td> <td>&nbsp;</td> <td class="blufour"><h4>리더십(벤처)</h4></td> <td>&nbsp;</td> <td class="bluseven">
+                            <h4>AI시대의 인간과 사회(팀티칭)</h4></td> <td>&nbsp;</td>
+                    </tr>
+                
+                    <tr>
+                        <td><h3>9교시</h3></td> <td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td> <td class="blutwo"><h4>대학영어회화2</h4></td>
+                    </tr>   
+                </table>
+            </section>
+            <aside>
+                <div>
+                    <ul>
+                        <li class="hoseopic">
+                            <a herf="http://www.hoseo.ac.kr/Home/Main.mbz">
+                                <img src="hoseopic.jpg" width="200px">
+                            </li>
+                                <li class="artpic">
+                                    <a href="https://vanexhibition.github.io/">
+                                    <img src="artpic.jpg" width="200px">
+                                 </a>
+                                </li>
+                        </ul>
+                    </a>
+                </div>
 
-    <tr>
-        <td><h3>2교시</h3></td> <td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td> <td class="blufive"><h4>디지털콘텐츠비즈니스창업</h4></td> <td>&nbsp;</td> <td class="blusix">
-            <h4>마케팅의 이해</h4></td>
-    </tr>
-
-    <tr>
-        <td><h3>3교시</h3></td> <td>&nbsp;</td> <td>&nbsp;</td> <td class="blutwo"><h4>대학영어회화2</h4></td> <td class="blusix"><h4>마케팅의 이해</h4></td> <td>&nbsp;</td> <td class="bluone">
-            <h4> 웹 프로그래밍</h4></td>
-    </tr>
-
-    <tr>
-        <td><h3>4교시</h3></td> <td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td> <td class="blusix"><h4>마케팅의 이해</h4></td> <td>&nbsp;</td> <td>&nbsp;</td>
-    </tr>
-
-    <tr>
-        <td><h3>5교시</h3></td> <td>&nbsp;</td> <td>&nbsp;</td> <td class="bluone"> <h4> 웹 프로그래밍</h4></td> <td class="bluthree"><h4>예술과 AI</h4></td> <td class="blufive">
-            <h4>디지털콘텐츠비즈니스창업</h4></td>  <td>&nbsp;</td>
-    </tr>
-
-    <tr>
-        <td><h3>6교시</h3></td> <td>&nbsp;</td> <td class="bluone"> <h4>웹 프로그래밍</h4></td> <td class="bluthree"><h4>예술과 AI</h4></td> <td class="blufive"><h4>디지털콘텐츠비즈니스창업</h4></td> <td class="bluseven">
-            <h4>AI시대의 인간과 사회(팀티칭)</h4></td> <td>&nbsp;</td>
-    </tr>
-
-    <tr>
-        <td><h3>7교시</h3></td> <td>&nbsp;</td> <td>&nbsp;</td> <td class="blufour"> <h4>리더십(벤처)</h4></td> <td>&nbsp;</td> <td class="bluseven"><h4>AI시대의 인간과 사회(팀티칭)</h4></td> <td>&nbsp;</td>
-    </tr>
-
-    <tr>
-        <td><h3>8교시</h3></td> <td>&nbsp;</td> <td>&nbsp;</td> <td class="blufour"><h4>리더십(벤처)</h4></td> <td>&nbsp;</td> <td class="bluseven">
-            <h4>AI시대의 인간과 사회(팀티칭)</h4></td> <td>&nbsp;</td>
-    </tr>
-
-    <tr>
-        <td><h3>9교시</h3></td> <td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td> <td class="blutwo"><h4>대학영어회화2</h4></td>
-    </tr>
-
-    <hr>
-    
-</table>
-<h4><a href="form_test.html"> 회원가입 </a> </h4>
-
-<br>
-
-<h4> <a href="rubato.html"> 루바토 펜션 안내</a></h4>
-
-<br>
-
-<h4> <a href="hoseo.html"> 호서 행사 안내</a></h4>
-
-<br>
-
-<h4> <a href="hoseonight.html"> 호서 야간 개장 안내</a></h4>
-
-<br>
-
-<h4> <a href="salepaper.html"> 세일 안내장</a></h4>
-
-<br>
-
-<h4> <a href="may.html"> 월간 일정표</a></h4>
-
-<br>
-
-<h4> <a href="shopping.html"> 쇼핑몰 판매 목록</a></h4>
-</body>
-</html>
+            </aside>
+            <div class="clear"></div>
+            <footer>
+                <h4>호서대학교:</h4>
+            </footer>
+        </div>
+    </div>
